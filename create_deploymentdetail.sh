@@ -6,7 +6,7 @@ BASE_URL="https://idp-api-dev.penpencil.co/query"
 # Authorization Token
 AUTH_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Njk5Mzg2NTksImZyZXNoIjp0cnVlLCJqdGkiOiJkMjlhZDE4OC0yYTQwLTQzNWItOTZiNy03YThmZWYzNzMyN2MiLCJzdWIiOiI3YWRhNjM2NC0yODgzLTQzZDItYmMwZi04NGVkNWMwNGMxMTUifQ.xCjen46rRkHdvbUDUju6hoSHocaJaMZZ6Iqtzq45vJ0"
 
-# Step 1: Fetch deployment details with the specific environmentID
+# Step 1: Fetch deployment detail with the specific environmentID
 response=$(curl -s -X POST "$BASE_URL" \
   -H "Content-Type: application/json" \
   -H "Authorization: $AUTH_TOKEN" \

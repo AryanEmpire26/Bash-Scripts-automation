@@ -9,7 +9,7 @@ AUTH_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Njk5Mzg2NTksImZyZXN
 # Fixed environment ID
 FIXED_ENVIRONMENT_ID="f4660020-8d40-4990-9808-ac576901c7e7"
 
-# Step 1: Fetch all services
+# Step 1: Fetch all service
 response=$(curl -s -X POST "$BASE_URL" \
   -H "Content-Type: application/json" \
   -H "Authorization:  $AUTH_TOKEN" \

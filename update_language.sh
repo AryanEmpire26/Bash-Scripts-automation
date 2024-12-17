@@ -6,7 +6,7 @@ BASE_URL="https://idp-api-dev.penpencil.co/query"
 # Authorization Token
 AUTH_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Njc5NDQ2ODQsImZyZXNoIjp0cnVlLCJqdGkiOiJiYjQwODIwNS1kOTBjLTQyZWYtOWQ5NC1hMzJlNTc4OTFlMzAiLCJzdWIiOiI3YWRhNjM2NC0yODgzLTQzZDItYmMwZi04NGVkNWMwNGMxMTUifQ.u0AVdfqWupO60DW7s_U7IWZuUV35t0zM6xthCmmN5hs"
 
-# Step 1: Fetch all deployment IDs and names
+# Step 1: Fetch all deployment IDs and name
 response=$(curl -s -X POST "$BASE_URL" \
   -H "Content-Type: application/json" \
   -H "Authorization:  $AUTH_TOKEN" \

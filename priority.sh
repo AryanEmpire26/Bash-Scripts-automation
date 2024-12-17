@@ -7,7 +7,7 @@ BASE_URL="https://idp-api-dev.penpencil.co/query"
 AUTH_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Njg1MjE2NDQsImZyZXNoIjp0cnVlLCJqdGkiOiI3YzRmODZmZS05NDRlLTQ3NDMtYjNjMi0xMTVmYmUyZmRmOWQiLCJzdWIiOiI3YWRhNjM2NC0yODgzLTQzZDItYmMwZi04NGVkNWMwNGMxMTUifQ.ReKhYqqr-SzSYrN9BKWNA5sLkWISdBqHGEQeASq6fAQ"
 
 
-# Deployment Names with Priority `P1`
+# Deployment Name with Priority `P1`
 DEPLOYMENT_NAMES=(
   "enrichment-pdf-be"
   "user-report-writer-non-video"

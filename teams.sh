@@ -3,7 +3,7 @@
 # Base URL
 BASE_URL="https://idp-api-dev.penpencil.co/query"
 
-# Authorization Token
+# Authorization Toke
 AUTH_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3Njg1MjE2NDQsImZyZXNoIjp0cnVlLCJqdGkiOiI3YzRmODZmZS05NDRlLTQ3NDMtYjNjMi0xMTVmYmUyZmRmOWQiLCJzdWIiOiI3YWRhNjM2NC0yODgzLTQzZDItYmMwZi04NGVkNWMwNGMxMTUifQ.ReKhYqqr-SzSYrN9BKWNA5sLkWISdBqHGEQeASq6fAQ"
 
 # Deployment and Team List
